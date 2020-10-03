@@ -20,12 +20,13 @@ function setup() {
 	//Create the Bodies Here.
 
 
-	Engine.run(engine);
+	//Engine.run(engine);
   
 }
 
 
 function draw() {
+	Engine.update(engine)
   rectMode(CENTER);
   background(0);
  ground.display();
